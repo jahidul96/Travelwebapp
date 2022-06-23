@@ -1,0 +1,91 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.searchWrapper {
+    margin-left: 20px;
+    width: 310px;
+    margin-top: 10px;
+}
+
+.navRightContentWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.appIconWrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.appIconWrapper>span {
+    margin-left: 3px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.mbleIcon {
+    margin-top: 5px;
+}
+
+.divider {
+    margin: 0 10px;
+    font-size: 17px;
+    color: #bbb;
+    font-weight: 300;
+}
+
+.helpText {
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.languageIconWrapper {
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.TbWorldIcon {
+    background-color: #3264FF;
+    margin-right: 5px;
+    color: #fff;
+    padding: 2px 5px;
+}
+
+.moneyWrapper {
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.downArrowIcon {
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.loginWrapper {
+    border: 1px solid #3264FF;
+    padding: 5px 10px;
+    color: #3264FF;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 400;
+}

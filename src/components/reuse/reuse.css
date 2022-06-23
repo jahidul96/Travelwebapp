@@ -1,0 +1,165 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+    height: 31px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.searchBar>input {
+    outline: none;
+    width: 84%;
+    height: 100%;
+    border: 1px solid #bbb;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.searchBar>span {
+    display: flex;
+    background-color: #3264FF;
+    height: 100%;
+    width: 16%;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+/* textcomp styles */
+.textCompContainer {
+    text-align: center;
+}
+
+/* downnav styles */
+.downnavBar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.downnavBar>ul {
+    list-style: none;
+    display: flex;
+}
+
+.downnavBar>ul>li:first-child {
+    margin-left: -18px;
+}
+
+.downnavBar>ul>li {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.downnavBar>ul>li:hover {
+    color: #3264FF;
+
+}
+
+/* multi carousel styles */
+
+.carouselImageWrapper {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carouselImageWrapper>img {
+    width: 90%;
+    height: 100%;
+}
+
+.carouselImageWrapper>img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+/* brif container */
+
+.homeBrifContainer {
+    text-align: center;
+    margin: 40px;
+}
+
+.homeTravelIconAndRule {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.homeTravelIconAndRule>div {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+
+}
+
+.homeTravelIconAndRule>div>span {
+    margin-top: 10px;
+    display: block;
+    margin-right: 5px;
+}
+
+.brifChildMiddleDiv {
+    margin: 0 30px;
+}
+
+/* tour styles */
+
+.tourWrapper {
+    margin: 10px 10px;
+    width: 265px;
+    min-height: 300px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #e6e1e1;
+
+}
+
+.tourWrapper>img {
+    width: 100%;
+    height: 150px;
+}
+
+.tourDetailsBtnContainer {
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.TourDetailsBtnStyles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(203, 193, 193);
+    height: 35px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.TourDetailsBtnStyles:hover {
+    border: 1px solid rgb(99, 216, 216);
+}
+
+.TourDetailsBtnStyles>div {
+    display: flex;
+    align-items: center;
+
+}
+
+.TourDetailsBtnStyles>div>p {
+    margin-left: 20px;
+    font-size: 14px;
+}

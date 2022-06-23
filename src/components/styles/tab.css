@@ -1,0 +1,79 @@
+.tabsConatiner {}
+
+.tablistContainer {
+    border: none;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.item {
+    margin-right: 40px;
+    font-size: 16px;
+    border: 1px solid #ede4e4;
+    padding: 5px 10px;
+}
+
+.active {
+    border: 1px solid blue;
+}
+
+/* recomendedDataWrapper stles */
+
+.recomendedDataWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+.recomendedImgWrapper {
+    width: 250px;
+    min-height: 300px;
+}
+
+.recomendedImgWrapper>img {
+    width: 100%;
+    height: 200px;
+}
+
+.recomendedTextandRatingWrapper {
+    margin-top: -10px;
+}
+
+
+
+.recomendedReviewWrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.recomendedReviewWrapper>span:first-child {
+    background-color: blue;
+    margin-right: 5px;
+    padding: 3px 6px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.recomendedPriceDiv {
+    display: flex;
+    align-items: center;
+}
+
+.recomendedPriceDiv>div {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.recomendedPriceDiv>p {
+    margin-left: 5px;
+    color: blue;
+    font-size: 20px;
+}

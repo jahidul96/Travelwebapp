@@ -1,0 +1,43 @@
+.tabMainDiv {
+    margin-top: 100px;
+}
+
+.selecttedTabsContainer {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+}
+
+.tabs {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.tabsItemWrapper {
+    background-color: #fff;
+    color: #000;
+}
+
+.tabIconWrapper {
+    display: block;
+    margin-top: 5px;
+}
+
+.tabs>span:first-child {
+    margin-right: 10px;
+}
+
+.selectedTabWrapper {
+    background-color: #fff;
+    padding: 50px 20px;
+    min-height: 80px;
+    box-shadow: -1px 11px 13px 0px rgba(201, 180, 180, 0.75);
+    -webkit-box-shadow: -1px 11px 13px 0px rgba(201, 180, 180, 0.75);
+    -moz-box-shadow: -1px 11px 13px 0px rgba(201, 180, 180, 0.75);
+    overflow: visible;
+}

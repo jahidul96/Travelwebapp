@@ -1,0 +1,49 @@
+.homeShowCaseContainer {
+    height: 50vh;
+}
+
+.HomeShowCase {
+    background-image: url('../../images/m.jpg');
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+/* covid section */
+
+.covidWarning {
+    display: flex;
+    align-items: center;
+    background-color: #FFF7EB;
+    padding: 2px 20px;
+    margin: 40px 0;
+    border-radius: 5px;
+}
+
+.blueCovidMiddleDiv {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 0 40px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.covidWhiteDiv {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.covidWarning>p:last-child {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
