@@ -1,7 +1,6 @@
 import { FaHotel } from 'react-icons/fa'
 import { MdOutlineFlight } from 'react-icons/md'
 import { IoTrainSharp, IoCarSportSharp } from 'react-icons/io5'
-import { AiFillCodeSandboxCircle } from 'react-icons/ai'
 
 export const categoryTabName = [
     {
@@ -24,9 +23,5 @@ export const categoryTabName = [
         name: 'Cars',
         icon: <IoCarSportSharp size={20} />
     },
-    {
-        id: 5,
-        name: 'Tour and Tickets',
-        icon: <AiFillCodeSandboxCircle size={20} />
-    },
+
 ]

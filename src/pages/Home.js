@@ -9,7 +9,8 @@ import { categoryTabName } from '../data/TravelData'
 import { addMultiSliderData, tourPlace } from '../data/multiSliderData'
 
 import TabComp from '../components/Tab'
-import { famousHotel, recomendedPlace } from '../data/RecomendedPlace'
+import { famousHotel, recomendedPlace, renatlCars } from '../data/RecomendedPlace'
+import AppUi from '../components/AppUi'
 
 
 
@@ -98,6 +99,20 @@ export default function Home() {
                     priceTag={true}
                 />
             </div>
+
+
+            {/* text Comp */}
+            <TextComp title={"Rent a Car"} />
+
+            {/* tabComp */}
+            <div className='container'>
+                <TabComp
+                    recomendedPlace={renatlCars}
+                    priceTag={true}
+                />
+            </div>
+
+            <AppUi />
 
             <div style={{ width: '100%', height: 500 }}>
 

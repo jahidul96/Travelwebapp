@@ -437,3 +437,235 @@ export const famousHotel = [
         ]
     },
 ]
+
+
+export const renatlCars = [
+    {
+        id: 1,
+        tabName: 'Dhaka',
+        citydata: [
+            {
+                id: 1,
+                name: "White Toyota",
+                image: 'https://media.istockphoto.com/photos/white-smart-car-picture-id170107445?b=1&k=20&m=170107445&s=170667a&w=0&h=zNPBj-Anr27EoXjtl3tfyFOe4q_l2_btMn3VLyhbxo8=',
+                rating: 4,
+                reviews: 20,
+                price: 3000
+            },
+            {
+                id: 2,
+                name: "Silvar Wagan",
+                image: 'https://media.istockphoto.com/photos/illustration-of-generic-compact-white-car-front-side-view-picture-id1150931120?k=20&m=1150931120&s=612x612&w=0&h=Jgokrl3DwEc1VUKNf5H3lH3lyg6yPQVobdELPn4zNsc=',
+                rating: 4,
+                reviews: 14,
+                price: 4000
+            },
+            {
+                id: 3,
+                name: "Old Trough Gr",
+                image: 'https://images.freeimages.com/images/small-previews/43e/black-beauty-1419055.jpg',
+                rating: 3,
+                reviews: 20,
+                price: 6000
+            },
+            {
+                id: 4,
+                name: "Hundai Tata ",
+                image: 'https://media.istockphoto.com/photos/yellow-sports-car-isolated-on-white-background-picture-id908026194?k=20&m=908026194&s=612x612&w=0&h=KDVsrTljkRrKBN4meVgR4-MuTbsGZZvaXqth2LGV7V4=',
+                rating: 2,
+                reviews: 40,
+                price: 5000
+            },
+        ]
+    },
+    {
+        id: 2,
+        tabName: 'Chittagong',
+        citydata: [
+            {
+                id: 1,
+                name: "Hundai",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 4,
+                reviews: 20,
+                price: 5000
+            },
+            {
+                id: 2,
+                name: "Waxwagan",
+                image: 'https://wallpaperaccess.com/full/5416591.jpg',
+                rating: 4,
+                reviews: 14,
+                price: 5000
+            },
+            {
+                id: 3,
+                name: "White Prado",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 3,
+                reviews: 20,
+                price: 5000
+            },
+            {
+                id: 4,
+                name: "Gladiator Cars",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 2,
+                reviews: 40,
+                price: 5000
+            },
+        ]
+    },
+    {
+        id: 3,
+        tabName: 'Syhlet',
+        citydata: [
+            {
+                id: 1,
+                name: "Royal Cars",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 4,
+                reviews: 20,
+                price: 5000
+            },
+            {
+                id: 2,
+                name: "White Mercidies",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 4,
+                reviews: 14,
+                price: 5000
+            },
+            {
+                id: 3,
+                name: "Hv Cars",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 3,
+                reviews: 20,
+                price: 5000
+            },
+            {
+                id: 4,
+                name: "Runner Cars",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 3,
+                reviews: 40,
+                price: 5000
+            },
+        ]
+    },
+    {
+        id: 4,
+        tabName: "Cox's Bazar",
+        citydata: [
+            {
+                id: 1,
+                name: "Hundai ",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 4,
+                reviews: 20,
+                price: 5000
+            },
+            {
+                id: 2,
+                name: "Toyota",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 4,
+                reviews: 14,
+                price: 5000
+            },
+            {
+                id: 3,
+                name: "Hero",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 3,
+                reviews: 20,
+                price: 5000
+            },
+            {
+                id: 4,
+                name: "Whixen Cars",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 2,
+                reviews: 40,
+                price: 5000
+            },
+        ]
+    },
+    {
+        id: 5,
+        tabName: 'Rangpur',
+        citydata: [
+            {
+                id: 1,
+                name: "Tata Cars",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 4,
+                reviews: 20,
+                price: 5000
+            },
+            {
+                id: 2,
+                name: "Hundai",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 4,
+                reviews: 14,
+                price: 5000
+            },
+            {
+                id: 3,
+                name: "Mercidies",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 3,
+                reviews: 20,
+                price: 5000
+            },
+            {
+                id: 4,
+                name: "White Cars",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 2,
+                reviews: 40,
+                price: 5000
+            },
+        ]
+    },
+    {
+        id: 6,
+        tabName: 'Rangamati',
+        citydata: [
+            {
+                id: 1,
+                name: "Special Edition Cars",
+                image: "https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=",
+                rating: 4,
+                reviews: 20,
+                price: 5000
+            },
+            {
+                id: 2,
+                name: "Hundai",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 4,
+                reviews: 14,
+                price: 5000
+            },
+            {
+                id: 3,
+                name: "Waxwagan",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 3,
+                reviews: 20,
+                price: 5000
+            },
+            {
+                id: 4,
+                name: "Hero ",
+                image: 'https://media.istockphoto.com/photos/generic-white-car-isolated-on-white-background-picture-id1186972461?b=1&k=20&m=1186972461&s=170667a&w=0&h=rDCDVPjC73cZyYLEu87qBRAvDUmJ6tVv5BvLG2Y9ycU=',
+                rating: 2,
+                reviews: 40,
+                price: 5000
+            },
+        ]
+    },
+]
