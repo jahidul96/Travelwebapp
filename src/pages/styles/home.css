@@ -3,7 +3,7 @@
 }
 
 .HomeShowCase {
-    background-image: url('../../images/m.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.5)), url('../../images/m.jpg');
     height: 40vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     background-color: #FFF7EB;
-    padding: 2px 20px;
+    padding: 0 20px;
     margin: 40px 0;
     border-radius: 5px;
 }

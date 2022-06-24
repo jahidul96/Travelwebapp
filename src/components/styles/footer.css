@@ -1,0 +1,59 @@
+.FooterMainWrapper {
+    display: flex;
+    margin-top: 30px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.footerlinkDivStyle {
+    width: 66%;
+}
+
+.footerLinkWrapperDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerLinkContentWrapper {
+    width: 33%;
+}
+
+.footerLinkContentWrapper>h3 {
+    font-size: 18px;
+    margin-bottom: -3px;
+    font-weight: 500;
+
+}
+
+.footerLinkContentWrapper>p {
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #5e5b5b;
+    margin-bottom: -5px;
+}
+
+.footerLinkContentWrapper>p:hover {
+    color: rgb(64, 64, 230);
+    text-decoration: underline;
+}
+
+.footerSocialIconWrapper {
+    margin-top: 20px;
+}
+
+.footerSocialIconWrapper>span {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.paymentText {
+    color: rgb(103, 98, 98);
+    font-weight: 400;
+
+}
+
+.paymentCardIconWrapper>span {
+    margin-right: 20px;
+    cursor: pointer;
+}

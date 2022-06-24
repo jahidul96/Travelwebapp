@@ -1,0 +1,82 @@
+.subHomeContainerStyle {
+    display: flex;
+    border: 1px solid #bbbb;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    overflow: hidden;
+}
+
+/* destinationHomesubDiv styles */
+
+.destinationHomesubDiv {
+    width: 130px;
+}
+
+.destinationHomesubDiv>p {
+    margin-bottom: 0px;
+    color: silver;
+    font-size: 14px;
+}
+
+.destinationHomesubDiv>input {
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.extraDestinatinDivStyle {
+    width: 140px;
+    margin-left: -40px;
+}
+
+/* checkinDiv styles */
+
+.checkinDiv {
+    width: 280px;
+    padding: 0 10px;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.checkinDiv>div>h4 {
+    margin-top: -5px;
+}
+
+/* roomandguestDiv styles */
+
+.roomandguestDiv {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid silver;
+    padding-right: 10px;
+}
+
+.roomandguestDiv>div {
+    margin-left: -30px;
+}
+
+.roomandguestDiv>span {
+    cursor: pointer;
+}
+
+/*SearchIconWrapper styles  */
+
+.SearchIconWrapper {
+    background-color: #3264FF;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -11,6 +11,7 @@ import { addMultiSliderData, tourPlace } from '../data/multiSliderData'
 import TabComp from '../components/Tab'
 import { famousHotel, recomendedPlace, renatlCars } from '../data/RecomendedPlace'
 import AppUi from '../components/AppUi'
+import Footer from '../components/Footer'
 
 
 
@@ -113,10 +114,7 @@ export default function Home() {
             </div>
 
             <AppUi />
-
-            <div style={{ width: '100%', height: 500 }}>
-
-            </div>
+            <Footer />
         </div>
     )
 }
