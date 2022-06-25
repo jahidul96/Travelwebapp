@@ -6,16 +6,15 @@
     display: flex;
     align-items: center;
     color: #fff;
-    background-color: #000;
-    width: 42.5%;
 }
 
 .tabs {
+    height: 40px;
     padding: 0 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 30px;
+    margin-right: 20px;
     cursor: pointer;
 }
 
@@ -27,10 +26,11 @@
 .tabIconWrapper {
     display: block;
     margin-top: 5px;
+
 }
 
 .tabs>span:first-child {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .selectedTabWrapper {
@@ -39,4 +39,25 @@
     min-height: 80px;
     box-shadow: 2px 5px 3px #c4bfbf;
     overflow: visible;
+}
+
+@media(max-width:980px) {
+    .selectedTabWrapper {
+        background-color: #fff;
+        padding: 0px 0px;
+        box-shadow: 2px 5px 3px #c4bfbf;
+
+    }
+}
+
+
+@media(max-width:767px) {
+    .tabs {
+        padding: 0 10px;
+        height: 35px;
+    }
+
+    .tabs>p {
+        font-size: 15px;
+    }
 }

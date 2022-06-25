@@ -2,7 +2,7 @@ import './styles/home.css'
 import { BsCheck } from 'react-icons/bs'
 
 
-import Navbar from '../components/Navbar'
+import Navbar, { PrenavComp } from '../components/Navbar'
 import { DownNavbar, MultiCarousel, TextComp } from '../components/reuse/Reuseble'
 import CategoryTabBar from '../components/CategoryTabBar'
 import { categoryTabName } from '../data/TravelData'
@@ -14,14 +14,13 @@ import AppUi from '../components/AppUi'
 import Footer from '../components/Footer'
 
 
-
-
-
-
 export default function Home() {
 
     return (
         <div>
+            <div className='smallScreenPrenav'>
+                <PrenavComp />
+            </div>
             <Navbar />
             <DownNavbar />
 
@@ -53,17 +52,17 @@ export default function Home() {
                 <h2>Countries/regions open for travel from AnyWhere</h2>
                 <div className='homeTravelIconAndRule'>
                     <div>
-                        <span><BsCheck size={22} color="blue" /></span>
+                        <span><BsCheck size={20} color="blue" /></span>
                         <p>Travel possible in both directions
                         </p>
                     </div>
                     <div className='brifChildMiddleDiv'>
-                        <span><BsCheck size={22} color="blue" /></span>
+                        <span><BsCheck size={20} color="blue" /></span>
                         <p>No quarantine or less 24h quarantine
                         </p>
                     </div>
                     <div>
-                        <span><BsCheck size={22} color="blue" /></span>
+                        <span><BsCheck size={20} color="blue" /></span>
                         <p>Great Deals
                         </p>
                     </div>

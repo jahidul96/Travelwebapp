@@ -33,7 +33,57 @@
     text-align: center;
 }
 
+
+
 /* downnav styles */
+
+.menuNavDiv {
+    position: relative;
+    display: none;
+    margin-left: 20px;
+}
+
+.menuNavDiv>div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.menuNavDiv>div>h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menuNavDiv>div>span {
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.smallScreenNavItem {
+    list-style: none;
+    background-color: #fff;
+    position: absolute;
+    width: 300px;
+    min-height: 300px;
+    top: 60px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 1px #d0cccc;
+}
+
+.smallScreenNavItem>li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.smallScreenNavItem>li:hover {
+    color: #3264FF;
+}
+
 .downnavBar {
     height: 70px;
     display: flex;
@@ -66,16 +116,17 @@
 /* multi carousel styles */
 
 .carouselImageWrapper {
-    width: 400px;
+    width: 350px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .carouselImageWrapper>img {
-    width: 90%;
+    width: 100%;
     height: 100%;
 }
 
@@ -85,37 +136,7 @@
 }
 
 
-/* brif container */
 
-.homeBrifContainer {
-    text-align: center;
-    margin: 40px;
-}
-
-.homeTravelIconAndRule {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.homeTravelIconAndRule>div {
-    display: flex;
-    align-items: center;
-    margin-top: -20px;
-
-}
-
-.homeTravelIconAndRule>div>span {
-    margin-top: 10px;
-    display: block;
-    margin-right: 5px;
-}
-
-.brifChildMiddleDiv {
-    margin: 0 30px;
-}
 
 /* tour styles */
 
@@ -162,4 +183,138 @@
 .TourDetailsBtnStyles>div>p {
     margin-left: 20px;
     font-size: 14px;
+}
+
+
+@media(max-width:880px) {
+    .searchBar {
+        height: 25px;
+        width: 100%;
+        border-radius: 2px;
+    }
+}
+
+@media(max-width:1024px) {
+    .carouselImageWrapper {
+        width: 450px;
+    }
+}
+
+@media(max-width:1000px) {
+    .downnavBar>ul>li {
+        margin-right: 10px;
+        font-size: 15px;
+
+    }
+}
+
+@media(max-width:970px) {
+    .carouselImageWrapper {
+        width: 400px;
+    }
+}
+
+@media(max-width:860px) {
+
+
+    .carouselImageWrapper {
+        width: 360px;
+        margin-left: 30px
+    }
+}
+
+@media(max-width:767px) {
+
+
+    .carouselImageWrapper {
+        width: 300px;
+        margin-left: 30px;
+    }
+}
+
+
+@media(max-width:740px) {
+    .downnavBar>ul>li {
+        margin-right: 10px;
+        font-size: 13px;
+
+    }
+}
+
+
+@media(max-width:640px) {
+    .downnavBar>ul {
+        display: none;
+    }
+
+    .menuNavDiv {
+        display: block;
+    }
+
+
+    .carouselImageWrapper {
+        width: 250px;
+        height: 150px;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:550px) {
+
+
+    .carouselImageWrapper {
+        width: 220px;
+        height: 150px;
+    }
+}
+
+@media(max-width:500px) {
+
+
+    .carouselImageWrapper {
+        width: 400px;
+        height: 180px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:450px) {
+
+    .carouselImageWrapper {
+        width: 350px;
+        height: 160px;
+        margin-left: 20px;
+    }
+
+}
+
+@media(max-width:420px) {
+    .carouselImageWrapper {
+        width: 350px;
+        height: 160px;
+        margin-left: 20px;
+    }
+
+}
+
+@media(max-width:400px) {
+
+
+    .carouselImageWrapper {
+        width: 320px;
+        height: 160px;
+        margin-left: 20px;
+    }
+
+}
+
+@media(max-width:380px) {
+
+
+    .carouselImageWrapper {
+        width: 300px;
+        height: 160px;
+        margin-left: 20px;
+    }
+
 }

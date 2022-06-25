@@ -6,8 +6,6 @@ import { TbCurrencyTaka } from 'react-icons/tb'
 
 export default function TabComp(props) {
     const { recomendedPlace, priceTag } = props
-    // const contentData = recomendedPlace.map(placeData => placeData.citydata)
-    // console.log(contentData)
 
 
     const arr = [1, 2, 3, 4, 5, 6]

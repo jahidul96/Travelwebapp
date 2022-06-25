@@ -1,4 +1,6 @@
 import './reuse.css'
+import { FiChevronDown } from 'react-icons/fi'
+import React, { useState } from 'react';
 
 
 import Carousel from "react-multi-carousel";
@@ -15,21 +17,45 @@ export const SearchBar = ({ placeholder, BiSearch, size }) => (
     </div>
 )
 
-export const DownNavbar = () => (
-    <div className='container downnavBar'>
-        <ul>
-            <li>Home</li>
-            <li>Flights</li>
-            <li>Trains</li>
-            <li>Cars</li>
-            <li>Tours And Tickets</li>
-            <li>Bundle and Save</li>
-            <li>AttracTions</li>
-            <li>Rewards</li>
-            <li>Deals</li>
-        </ul>
-    </div>
-)
+export const DownNavbar = () => {
+    const [showMenu, setShowMenu] = useState(false)
+    return (
+        <div className='container downnavBar'>
+            <div className='menuNavDiv' onClick={() => setShowMenu(!showMenu)}>
+                <div>
+                    <h4>Menu</h4>
+                    <span><FiChevronDown size={20} /></span>
+                </div>
+                {
+                    showMenu && <ul className='smallScreenNavItem'>
+                        <li>Home</li>
+                        <li>Flights</li>
+                        <li>Trains</li>
+                        <li>Cars</li>
+                        <li>Tours And Tickets</li>
+                        <li>Bundle and Save</li>
+                        <li>AttracTions</li>
+                        <li>Rewards</li>
+                        <li>Deals</li>
+                    </ul>
+                }
+
+
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>Flights</li>
+                <li>Trains</li>
+                <li>Cars</li>
+                <li>Tours And Tickets</li>
+                <li>Bundle and Save</li>
+                <li>AttracTions</li>
+                <li>Rewards</li>
+                <li>Deals</li>
+            </ul>
+        </div>
+    )
+}
 
 
 export const Ratings = ({ rating }) => (
@@ -89,7 +115,7 @@ const responsive = {
         slidesToSlide: 1
     },
     mobile: {
-        breakpoint: { max: 464, min: 0 },
+        breakpoint: { max: 500, min: 0 },
         items: 1,
         slidesToSlide: 1
     }
@@ -134,7 +160,7 @@ export const MultiCarousel = ({ addMultiSliderData, tour }) => {
             infinite={true}
             autoPlaySpeed={1000}
             keyBoardControl={true}
-            className="container"
+            className="container carouselContainer"
 
         >
             {

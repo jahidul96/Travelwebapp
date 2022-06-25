@@ -37,7 +37,7 @@
 }
 
 .recomendedImgWrapper>img {
-    width: 100%;
+    width: 90%;
     height: 200px;
 }
 
@@ -77,4 +77,65 @@
     color: blue;
     font-size: 20px;
     font-weight: bold;
+}
+
+
+@media(max-width:900px) {
+    .recomendedDataWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        cursor: pointer;
+        margin-bottom: 70px;
+    }
+
+    .recomendedImgWrapper {
+        width: 250px;
+        min-height: 300px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:590px) {
+    .recomendedDataWrapper {
+        margin-left: 20px;
+    }
+
+    .recomendedImgWrapper>img {
+        width: 90%;
+        height: 160px;
+    }
+}
+
+@media(max-width:550px) {
+
+
+    .recomendedImgWrapper {
+        width: 200px;
+        min-height: 200px;
+
+    }
+}
+
+@media(max-width:450px) {
+    .recomendedDataWrapper {
+        margin-left: 20px;
+    }
+
+    .recomendedImgWrapper {
+        width: 180px;
+        min-height: 180px;
+
+    }
+}
+
+@media(max-width:400px) {
+
+    .recomendedImgWrapper {
+        width: 320px;
+        min-height: 200px;
+
+    }
 }
