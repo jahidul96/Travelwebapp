@@ -7,8 +7,6 @@ import { TbCurrencyTaka } from 'react-icons/tb'
 export default function TabComp(props) {
     const { recomendedPlace, priceTag } = props
 
-
-    const arr = [1, 2, 3, 4, 5, 6]
     return (
         <div>
             <Tabs className={'tabsConatiner'}>

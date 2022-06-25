@@ -8,10 +8,10 @@ export default function AppUi() {
     return (
         <div className='appUiSection'>
             <div className='container appDetailsWrapper'>
-                <div>
+                <div className='appuiImageWrapper'>
                     <img src={AppImage} alt="app" />
                 </div>
-                <div>
+                <div className='appUiContentWrapper'>
                     <div>
                         <h1>Your all-in-one travel app.</h1>
                         <p>Book flights, hotels, trains & rental cars anywhere in the world in just seconds. Get real-time flight updates, travel info, exclusive deals, and 30% more Trip Coins only on the app!</p>
@@ -38,10 +38,12 @@ export default function AppUi() {
                                     </div>
                                 </div>
                             </div>
-                            <div className='qrImageWrapper'>
-                                <img width={200} height={200} src={QrImage} alt='qrcode' />
-                            </div>
 
+
+                        </div>
+
+                        <div className='qrImageWrapper'>
+                            <img src={QrImage} alt='qrcode' />
                         </div>
                     </div>
                 </div>

@@ -98,6 +98,18 @@
     }
 }
 
+@media(max-width:836px) {
+    .item {
+        margin-right: 20px;
+        font-size: 14px;
+        padding: 3px 6px;
+    }
+
+    .active {
+        border: 1px solid blue;
+    }
+}
+
 @media(max-width:590px) {
     .recomendedDataWrapper {
         margin-left: 20px;
@@ -109,6 +121,23 @@
     }
 }
 
+@media(max-width:612px) {
+    .tablistContainer {
+        margin-left: -20px;
+    }
+
+    .item {
+        margin-right: 10px;
+        font-size: 13px;
+        border: 1px solid #ede4e4;
+        padding: 3px 4px;
+    }
+
+    .active {
+        border: 1px solid blue;
+    }
+}
+
 @media(max-width:550px) {
 
 
@@ -116,6 +145,16 @@
         width: 200px;
         min-height: 200px;
 
+    }
+}
+
+@media(max-width:480px) {
+    .tablistContainer {
+        flex-wrap: wrap;
+    }
+
+    .item {
+        margin-top: 10px;
     }
 }
 

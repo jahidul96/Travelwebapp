@@ -1,5 +1,6 @@
 import './reuse.css'
 import { FiChevronDown } from 'react-icons/fi'
+import { BiUpArrowAlt } from 'react-icons/bi'
 import React, { useState } from 'react';
 
 
@@ -24,7 +25,10 @@ export const DownNavbar = () => {
             <div className='menuNavDiv' onClick={() => setShowMenu(!showMenu)}>
                 <div>
                     <h4>Menu</h4>
-                    <span><FiChevronDown size={20} /></span>
+                    {
+                        showMenu ? <span><BiUpArrowAlt size={20} /></span> : <span><FiChevronDown size={20} /></span>
+                    }
+
                 </div>
                 {
                     showMenu && <ul className='smallScreenNavItem'>
@@ -123,12 +127,17 @@ const responsive = {
 
 const tourResponsive = {
     desktop: {
-        breakpoint: { max: 3000, min: 900 },
+        breakpoint: { max: 3000, min: 1000 },
         items: 4,
         slidesToSlide: 1 // optional, default to 1.
     },
     tablet: {
-        breakpoint: { max: 900, min: 464 },
+        breakpoint: { max: 1000, min: 767 },
+        items: 3,
+        slidesToSlide: 1 // optional, default to 1.
+    },
+    tablet2: {
+        breakpoint: { max: 767, min: 464 },
         items: 2,
         slidesToSlide: 1 // optional, default to 1.
     },

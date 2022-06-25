@@ -186,6 +186,14 @@
 }
 
 
+@media(max-width:1270px) {
+    .tourWrapper {
+        width: 230px;
+
+    }
+}
+
+
 @media(max-width:880px) {
     .searchBar {
         height: 25px;
@@ -205,6 +213,11 @@
         margin-right: 10px;
         font-size: 15px;
 
+    }
+
+    .textCompContainer>h1 {
+        font-size: 22px;
+        font-weight: 600;
     }
 }
 
@@ -230,6 +243,15 @@
         width: 300px;
         margin-left: 30px;
     }
+
+    .tourWrapper {
+        width: 300px;
+    }
+
+    .tourDetailsBtnContainer>h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
 }
 
 
@@ -251,6 +273,9 @@
         display: block;
     }
 
+    .tourWrapper {
+        width: 250px;
+    }
 
     .carouselImageWrapper {
         width: 250px;
@@ -266,6 +291,18 @@
         width: 220px;
         height: 150px;
     }
+
+    .textCompContainer>h1 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:536px) {
+    .tourWrapper {
+        width: 220px;
+    }
+
 }
 
 @media(max-width:500px) {
@@ -276,6 +313,23 @@
         height: 180px;
         margin-left: 20px;
     }
+}
+
+@media(max-width:480px) {
+
+    .tourWrapper {
+        width: 200px;
+    }
+
+}
+
+@media(max-width:464px) {
+
+    .tourWrapper {
+        width: 350px;
+        margin-left: 40px;
+    }
+
 }
 
 @media(max-width:450px) {
@@ -295,6 +349,11 @@
         margin-left: 20px;
     }
 
+    .tourWrapper {
+        width: 320px;
+        margin-left: 30px;
+    }
+
 }
 
 @media(max-width:400px) {
@@ -306,6 +365,17 @@
         margin-left: 20px;
     }
 
+    .tourWrapper {
+        width: 320px;
+        margin-left: 20px;
+    }
+
+
+    .smallScreenNavItem {
+
+        width: 250px;
+    }
+
 }
 
 @media(max-width:380px) {
@@ -314,6 +384,11 @@
     .carouselImageWrapper {
         width: 300px;
         height: 160px;
+        margin-left: 20px;
+    }
+
+    .tourWrapper {
+        width: 300px;
         margin-left: 20px;
     }
 

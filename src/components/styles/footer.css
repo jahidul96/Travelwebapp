@@ -57,3 +57,41 @@
     margin-right: 20px;
     cursor: pointer;
 }
+
+@media(max-width:650px) {
+    .FooterMainWrapper {
+
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footerLinkWrapperDiv {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:566px) {
+    .footerlinkDivStyle {
+        width: 80%;
+    }
+}
+
+@media(max-width:476px) {
+    .footerlinkDivStyle {
+        width: 90%;
+    }
+}
+
+@media(max-width:418px) {
+    .footerlinkDivStyle {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media(max-width:396px) {
+    .footerSocialIconWrapper>span {
+        margin-right: 10px;
+    }
+}
