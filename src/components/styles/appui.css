@@ -122,13 +122,24 @@
 }
 
 @media(max-width:767px) {
+
+    .appDetailsWrapper {
+        width: 80%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .appUiContentWrapper {
+        width: 100%;
+    }
+
     .appDetailsWrapper {
         flex-direction: column-reverse;
         justify-content: center;
     }
 
     .appuiImageWrapper>img {
-        width: 100%;
+        width: 450px;
         height: 300px;
         margin-top: 50px;
     }
@@ -151,11 +162,39 @@
     }
 
     .appBtn {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .appuiImageWrapper>img {
+        width: 400px;
+        height: 250px;
+    }
+}
 
+@media(max-width:500px) {
+    .appuiImageWrapper>img {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media(max-width:420px) {
+    .appuiImageWrapper>img {
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media(max-width:390px) {
+    .appuiImageWrapper>img {
+        width: 280px;
+        height: 250px;
+    }
+}
+
+@media(max-width:350px) {
+    .appuiImageWrapper>img {
+        width: 250px;
         height: 200px;
     }
 }
