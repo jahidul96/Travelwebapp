@@ -6,30 +6,35 @@ import { MdFlight } from 'react-icons/md'
 import { RiRemoteControl2Fill } from 'react-icons/ri'
 import { useState } from 'react'
 
-
+const inputStyle = {
+    border: "none",
+    height: 30,
+    width: "60%",
+    outline: "none",
+    fontSize: 14
+}
 
 export const SubHotelComp = () => {
+
+
     return (
         <div className='subHomeContainerStyle'>
-            {/* destinatin div */}
-            <Destination
-                title="Destination/Hotel"
-                placeholder={'Type your destination'}
-            />
-
-            {/* checkinDiv */}
+            <div
+                className='destinationHomesubDiv'
+            >
+                <InputComp
+                    placeholder="Destination.."
+                    style={inputStyle}
+                />
+            </div>
             <Checkin />
-
-            {/* roomandguestDiv */}
             <RoomAndGuest />
-
-            {/* search div */}
-            <Destination
-                extra={true} title="KeyWord (Optional)"
-                placeholder={'AirPort, station, hotel name...'}
-            />
-
-            {/* searcIcon div */}
+            <div className='destinationHomesubDiv'>
+                <InputComp
+                    placeholder="Air/Hotel search.."
+                    style={inputStyle}
+                />
+            </div>
             <SearchIcon
                 classStyle={'SearchIconWrapper'}
                 size={40}
@@ -42,13 +47,7 @@ export const SubHotelComp = () => {
 
 export const FlightComp = () => {
 
-    const inputStyle = {
-        border: "none",
-        height: 30,
-        width: "60%",
-        outline: "none",
-        fontSize: 16
-    }
+
 
     return (
         <div className='flightContainer'>
@@ -120,17 +119,19 @@ const MemberComp = (props) => {
     const [showCard, setShowCard] = useState(false)
     return (
         <div className="memberComp">
-            <MdFlight size={size} />
+            <MdFlight className="memberCompIcon" />
             <p>{text}</p>
             {
                 showCard ?
                     <BiUpArrow
+                        className="memberCompIcon"
                         style={{ cursor: 'pointer' }}
                         onClick={() => setShowCard(false)}
-                        size={size} />
+                    />
                     : <AiFillCaretDown
                         style={{ cursor: 'pointer' }}
-                        onClick={() => setShowCard(true)} size={size}
+                        onClick={() => setShowCard(true)}
+                        className="memberCompIcon"
                     />
             }
 
@@ -142,13 +143,15 @@ const MemberComp = (props) => {
 
 
 export const Destination = (props) => {
-    const { title, placeholder, extra } = props
+    const { title, placeholder, extra, style } = props
     return (
         <div
-            className={extra ? 'destinationHomesubDiv extraDestinatinDivStyle' : "destinationHomesubDiv"}
+            className='destinationHomesubDiv'
         >
-            <p>{title}</p>
-            <InputComp placeholder={placeholder} />
+            <InputComp
+                placeholder={placeholder}
+                style={style}
+            />
         </div>
     )
 }
