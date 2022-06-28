@@ -1,7 +1,7 @@
 import './styles/categorytabbar.css';
 
 import { useState } from 'react';
-import { SubHomeComp } from './SubComponent/SubCategoryComp';
+import { FlightComp, SubHotelComp } from './SubComponent/SubCategoryComp'
 
 
 export default function CategoryTabBar({ categoryTabName }) {
@@ -31,19 +31,19 @@ export default function CategoryTabBar({ categoryTabName }) {
                 {
                     selectedTab == "Trains" ? (
                         <div>
-                            <SubHomeComp />
+                            <SubHotelComp />
                         </div>
                     ) : selectedTab == "Flights" ? (
                         <div>
-                            <SubHomeComp />
+                            <FlightComp />
                         </div>
                     ) : selectedTab == "Cars" ? (
                         <div>
-                            <SubHomeComp />
+                            <FlightComp />
                         </div>
                     ) : (
                         <div>
-                            <SubHomeComp />
+                            <SubHotelComp />
                         </div>
                     )
 

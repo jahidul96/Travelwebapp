@@ -35,7 +35,7 @@
 
 .selectedTabWrapper {
     background-color: #fff;
-    padding: 40px 20px;
+    padding: 20px;
     min-height: 80px;
     box-shadow: 2px 5px 3px #c4bfbf;
     overflow: visible;
@@ -44,7 +44,7 @@
 @media(max-width:980px) {
     .selectedTabWrapper {
         background-color: #fff;
-        padding: 0px 0px;
+        padding: 10px 10px;
         box-shadow: 2px 5px 3px #c4bfbf;
 
     }
