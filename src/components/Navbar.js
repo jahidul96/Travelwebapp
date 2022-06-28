@@ -5,12 +5,16 @@ import { TbWorld } from 'react-icons/tb'
 import { BsChevronDown } from 'react-icons/bs'
 import { BiSearch } from 'react-icons/bi'
 import { SearchBar } from './reuse/Reuseble'
+import { useNavigate } from 'react-router-dom'
 
 export default function Navbar() {
+    const navigate = useNavigate()
+
+    const goToHome = () => navigate('/')
     return (
         <div className='nav container'>
             <div className='logoWrapper'>
-                <div className='logo'>
+                <div className='logo' onClick={goToHome}>
                     <img src={logo} alt='logo' />
                 </div>
                 <div className='searchWrapper'>

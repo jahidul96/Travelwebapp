@@ -1,9 +1,7 @@
 import './styles/subcategory.css'
 import { AiOutlineDown, AiFillCaretDown } from 'react-icons/ai'
 import { BiSearch, BiUpArrow } from 'react-icons/bi'
-import { BsFillPersonFill } from 'react-icons/bs'
 import { MdFlight } from 'react-icons/md'
-import { RiRemoteControl2Fill } from 'react-icons/ri'
 import { useState } from 'react'
 
 const inputStyle = {

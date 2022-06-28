@@ -2,12 +2,14 @@ import './reuse.css'
 import { FiChevronDown } from 'react-icons/fi'
 import { BiUpArrowAlt } from 'react-icons/bi'
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { BsArrowUpRightCircleFill, BsArrowRight } from 'react-icons/bs'
 import { MdOutlineMyLocation } from 'react-icons/md'
+import { FaEnvelopeOpenText } from 'react-icons/fa'
 
 import { AiFillStar } from 'react-icons/ai'
 
@@ -32,7 +34,7 @@ export const DownNavbar = () => {
                 </div>
                 {
                     showMenu && <ul className='smallScreenNavItem'>
-                        <li>Home</li>
+                        <li><Link className='link' to="/hotels">Hotel</Link></li>
                         <li>Flights</li>
                         <li>Trains</li>
                         <li>Cars</li>
@@ -47,7 +49,7 @@ export const DownNavbar = () => {
 
             </div>
             <ul>
-                <li>Home</li>
+                <li><Link className='link' to="/hotels">Hotel</Link></li>
                 <li>Flights</li>
                 <li>Trains</li>
                 <li>Cars</li>
@@ -104,6 +106,27 @@ export const TextComp = ({ title }) => (
         <h1>{title}</h1>
     </div>
 )
+
+
+export const NewsLetter = () => {
+    return (
+        <div className='newsletterDiv'>
+            <div className='newsLetterIconDiv'>
+                <FaEnvelopeOpenText className='envolopeIcon' />
+            </div>
+            <div className='newsLetterBrifDiv'>
+                <h4>Want to save up to 50% when you travel?</h4>
+                <p>
+                    Yes, I'd like to save up to 50% on travel! Please send me exclusive deals and updates.
+                </p>
+            </div>
+            <div className='newsLetterInputDiv'>
+                <input />
+                <button>Subscribe</button>
+            </div>
+        </div>
+    )
+}
 
 
 

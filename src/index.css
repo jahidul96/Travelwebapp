@@ -16,6 +16,11 @@ body {
   margin: 0 auto;
 }
 
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
 @media(max-width:1200px) {
   .container {
     width: 95%;

@@ -1,0 +1,40 @@
+.HotelShowCase {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.5)), url('../../images/maldives.jpg');
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hotelSubStyles {
+    margin-top: 100px;
+}
+
+.hotelTitleWrapper {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: -20px;
+}
+
+.hotelTitleWrapper>h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.hotelTitleWrapper>span {
+    display: block;
+    margin-top: -15px;
+    font-size: 60px;
+    color: yellow;
+}
+
+@media(max-width:980px) {
+    .HotelShowCase {
+
+        height: 50vh;
+    }
+}
