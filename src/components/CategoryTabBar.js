@@ -37,7 +37,15 @@ export default function CategoryTabBar({ categoryTabName, hometab }) {
                     {
                         selectedTab == "Trains" ? (
                             <div>
-                                <SubHotelComp />
+                                <SubHotelComp
+                                    placeholder="Destination"
+                                    placeholder2="Air, Hotel etc.."
+                                    times="1 Nights"
+                                    checkin="Check in"
+                                    pickupDates="fri 24 22"
+                                    dispatch="Check Out"
+                                    dispatchDate="fri 25 22"
+                                />
                             </div>
                         ) : selectedTab == "Flights" ? (
                             <div>
@@ -49,7 +57,15 @@ export default function CategoryTabBar({ categoryTabName, hometab }) {
                             </div>
                         ) : (
                             <div>
-                                <SubHotelComp />
+                                <SubHotelComp
+                                    placeholder="Destination"
+                                    placeholder2="Air, Hotel etc.."
+                                    times="1 Nights"
+                                    checkin="Check in"
+                                    pickupDates="fri 24 22"
+                                    dispatch="Check Out"
+                                    dispatchDate="fri 25 22"
+                                />
                             </div>
                         )
 

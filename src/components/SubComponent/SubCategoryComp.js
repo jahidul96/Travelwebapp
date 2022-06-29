@@ -12,31 +12,32 @@ const inputStyle = {
     fontSize: 14
 }
 
-export const SubHotelComp = () => {
+export const SubHotelComp = (props) => {
+    const { placeholder, placeholder2, times, checkin, pickupDates, dispatch, dispatchDate } = props
 
 
     return (
         <div className='subHomeContainerStyle'>
             <div className='homeSubInputWrapper'>
                 <InputComp
-                    placeholder="Destination"
+                    placeholder={placeholder}
                     classname="subHomeInputStyle"
                 />
             </div>
             <div className='homeSubPersonDiv'>
                 <div >
-                    <p>Check in</p>
-                    <h4>Fri 24 Jun</h4>
+                    <h5>{checkin}</h5>
+                    <h4>{pickupDates}</h4>
                 </div>
-                <p>1 night</p>
+                <p>{times}</p>
                 <div>
-                    <p>Check in</p>
-                    <h4>Fri 24 Jun</h4>
+                    <h5>{dispatch}</h5>
+                    <h4>{dispatchDate}</h4>
                 </div>
             </div>
             <div className='homeSubInputWrapper smallScreenBorder'>
                 <InputComp
-                    placeholder="Air,Hotels etc.."
+                    placeholder={placeholder2}
                     classname="subHomeInputStyle"
                 />
             </div>

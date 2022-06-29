@@ -21,7 +21,15 @@ export default function Hotel() {
                             <h1>Hotels </h1>
                             <span>.</span>
                         </div>
-                        <SubHotelComp />
+                        <SubHotelComp
+                            placeholder="Destination"
+                            placeholder2="Air, Hotel etc.."
+                            times="1 Nights"
+                            checkin="Check in"
+                            pickupDates="fri 24 22"
+                            dispatch="Check Out"
+                            dispatchDate="fri 25 22"
+                        />
                     </div>
                 </div>
             </div>
