@@ -27,7 +27,7 @@ export default function Home() {
 
             <div className="homeShowCaseContainer">
                 <div className='HomeShowCase'>
-                    <CategoryTabBar categoryTabName={categoryTabName} />
+                    <CategoryTabBar categoryTabName={categoryTabName} hometab={true} />
                 </div>
             </div>
 

@@ -8,6 +8,15 @@
     color: #fff;
 }
 
+.flightTabStyleExtra {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 1px #c4bfbf;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .tabs {
     height: 40px;
     padding: 0 15px;
@@ -23,11 +32,30 @@
     color: #000;
 }
 
+.flghtPageItemWrapper {
+    color: #000;
+    border-bottom: 3px solid blue;
+}
+
+.flghtPageTabs {
+    height: 60px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.flghtPageTabs>p {
+    margin-left: 8px;
+}
+
 .tabIconWrapper {
     display: block;
     margin-top: 5px;
 
 }
+
 
 .tabs>span:first-child {
     margin-right: 5px;
@@ -60,6 +88,35 @@
     .tabs>p {
         font-size: 15px;
     }
+
+    .flghtPageTabs {
+        width: 20%;
+    }
+
+    .flghtPageItemWrapper {
+        border-bottom: 1px solid blue;
+    }
+}
+
+@media(max-width:610px) {
+    .tabs {
+        margin-right: 3px;
+    }
+
+    .flightTabStyleExtra {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .flghtPageTabs {
+        height: 45px;
+        width: 30%;
+    }
+
+    .flghtPageTabs>p {
+        font-size: 14px;
+    }
+
 }
 
 @media(max-width:410px) {
@@ -67,4 +124,18 @@
         margin-right: 3px;
     }
 
+    .flghtPageTabs>p {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:390px) {
+    .flightTabStyleExtra {
+        padding: 0px;
+    }
+
+    .flghtPageTabs>p {
+        font-size: 11px;
+    }
 }

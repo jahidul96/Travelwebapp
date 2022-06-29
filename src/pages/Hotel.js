@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import AppUi from '../components/AppUi'
 import Footer from '../components/Footer'
 import Navbar, { PrenavComp } from '../components/Navbar'

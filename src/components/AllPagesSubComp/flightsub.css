@@ -1,0 +1,311 @@
+.flightsubComStyles {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.5)), url('../../images/flight.jpg');
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.flightsubComStyles>h4 {
+    margin-top: -10px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.flightsubComStyles>p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.flghtSignInBtn {
+    background-color: #3264FF;
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.flightSubLinkWrapper {
+    text-align: center;
+}
+
+.flightSubLinkWrapper>p {
+    font-size: 15px;
+}
+
+.flightSubLinkWrapper>a {
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.flightSubLinkWrapper>a:hover {
+    color: #3264FF
+}
+
+
+/* priceFreazeCompContainer styles */
+
+.priceFreazeCompContainer {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 1px #c0bdbd;
+}
+
+.priceCompContentWrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.priceCompSigninImgWrapper {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceCompSigninImgWrapper>img {
+    width: 80%;
+    height: 80%;
+}
+
+
+.priceSignInDetailsContentWrapper {
+    text-align: center;
+    height: 80%;
+}
+
+
+.priceSignInDetailsContentWrapper>h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* flightstatus div styles */
+
+.flghtStausDiv {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 1px #c0bdbd;
+    padding: 0 10px;
+}
+
+.fligtRadioCompDiv {
+    height: 70px;
+    display: flex;
+
+    align-items: center;
+}
+
+
+
+.radioConatinerDiv {
+    display: flex;
+    align-items: center;
+}
+
+.radioConatinerDiv:last-child {
+    margin-left: 30px;
+}
+
+.radioConatinerDiv>p {
+    margin-left: 5px;
+}
+
+.paddingFlightSubWrapper {
+    padding: 0 10px;
+}
+
+.flightSubSearchDiv {
+    height: 70px;
+    border: 1px solid #edeaea;
+    display: flex;
+    align-items: center;
+}
+
+.flightSerarchDivInputStyle {
+    width: 93%;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+
+.flghtSubSeacrhWrapper {
+    width: 7%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3264FF;
+    cursor: pointer;
+}
+
+.flghtSubSeacrhIconStyle {
+    font-size: 30px;
+}
+
+@media(max-width:900px) {
+
+
+    .flightSubSearchDiv {
+        height: 50px;
+    }
+
+    .flightSerarchDivInputStyle {
+        width: 90%;
+        height: 25px;
+    }
+
+
+    .flghtSubSeacrhWrapper {
+        width: 10%;
+        height: 50px;
+    }
+}
+
+@media(max-width:767px) {
+    .flightsubComStyles>h4 {
+        font-size: 20px;
+    }
+
+    .flightsubComStyles>p {
+        font-size: 13px;
+    }
+
+    .flightSubLinkWrapper>p {
+        font-size: 13px;
+    }
+
+    .flightSubLinkWrapper>a {
+        font-size: 12px;
+    }
+
+    .flghtSignInBtn {
+        padding: 6px 15px;
+    }
+
+    .priceFreazeCompContainer {
+        min-height: 70vh;
+        padding: 10px;
+        padding-bottom: 35px;
+    }
+
+    .priceSignInDetailsContentWrapper>h3 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .priceCompContentWrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .priceCompSigninImgWrapper {
+        width: 100%;
+        height: 90%;
+    }
+
+    .priceSignInDetailsContentWrapper {
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .priceCompSigninImgWrapper>img {
+        width: 60%;
+        height: 80%;
+        margin-right: 20px;
+    }
+
+    .radioConatinerDiv>p {
+        font-size: 14px;
+    }
+
+    .flghtStausDiv {
+        height: 25vh;
+    }
+}
+
+@media(max-width:600px) {
+    .flghtSubSeacrhIconStyle {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:550px) {
+
+
+    .flightSubSearchDiv {
+        height: 40px;
+    }
+
+    .fligtRadioCompDiv {
+        padding-left: 10px;
+        height: 60px;
+    }
+
+
+    .flghtSubSeacrhWrapper {
+        height: 40px;
+    }
+}
+
+@media(max-width:500px) {
+    .priceSignInDetailsContentWrapper>h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
+
+@media(max-width:450px) {
+
+    .flightSerarchDivInputStyle {
+        width: 80%;
+    }
+
+
+    .flghtSubSeacrhWrapper {
+        width: 20%;
+        height: 35px;
+    }
+
+    .flightSubSearchDiv {
+        height: 35px;
+    }
+
+    .fligtRadioCompDiv {
+        padding-left: 10px;
+        height: 60px;
+    }
+
+
+}
+
+@media(max-width:380px) {
+    .radioConatinerDiv:last-child {
+        margin-left: 10px;
+    }
+
+    .radioConatinerDiv>p {
+        font-size: 12px;
+    }
+}

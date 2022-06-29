@@ -103,10 +103,11 @@ export const FlightComp = () => {
     )
 }
 
-const InputComp = ({ placeholder, style }) => (
+export const InputComp = ({ placeholder, style, classname }) => (
     <input
         placeholder={placeholder}
         style={style}
+        className={classname}
     />
 )
 
@@ -185,8 +186,8 @@ const RoomAndGuest = () => (
     </div>
 )
 
-const SearchIcon = ({ classStyle, size }) => (
+export const SearchIcon = ({ classStyle, size, classname }) => (
     <div className={classStyle}>
-        <span><BiSearch size={size} color="#fff" /></span>
+        <BiSearch className={classname} size={size} color="#fff" />
     </div>
 )

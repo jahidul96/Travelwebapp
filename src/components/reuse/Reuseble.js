@@ -35,7 +35,7 @@ export const DownNavbar = () => {
                 {
                     showMenu && <ul className='smallScreenNavItem'>
                         <li><Link className='link' to="/hotels">Hotel</Link></li>
-                        <li>Flights</li>
+                        <li><Link className='link' to="/flights">Flights</Link></li>
                         <li>Trains</li>
                         <li>Cars</li>
                         <li>Tours And Tickets</li>
@@ -50,7 +50,7 @@ export const DownNavbar = () => {
             </div>
             <ul>
                 <li><Link className='link' to="/hotels">Hotel</Link></li>
-                <li>Flights</li>
+                <li><Link className='link' to="/flights">Flights</Link></li>
                 <li>Trains</li>
                 <li>Cars</li>
                 <li>Tours And Tickets</li>

@@ -16,9 +16,15 @@ body {
   margin: 0 auto;
 }
 
+
 .link {
   text-decoration: none;
   color: #000;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #3264FF;
 }
 
 @media(max-width:1200px) {

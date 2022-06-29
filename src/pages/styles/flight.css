@@ -1,0 +1,17 @@
+.flghtShowCase {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.5)), url('../../images/flight.jpg');
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flightCompFlightPageWrapper {
+    background-color: #fff;
+    min-height: 100px;
+    box-shadow: 1px 1px 3px 1px #c9c2c2;
+    padding: 10px;
+}
