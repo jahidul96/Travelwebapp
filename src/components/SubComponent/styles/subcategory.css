@@ -1,81 +1,59 @@
 .subHomeContainerStyle {
     display: flex;
-    padding-left: 10px;
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    overflow: hidden;
     background-color: #fff;
-    box-shadow: 1px 1px 3px 1px #ccc7c7;
-
+    box-shadow: 1px 1px 3px 1px #eae6e6;
 }
 
-
-
-
-/* destinationHomesubDiv styles */
-
-.destinationHomesubDiv {
-    width: 130px;
-    height: 70px;
+.homeSubInputWrapper {
+    width: 20%;
     display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-
-
-
-
-
-
-/* checkinDiv styles */
-
-.checkinDiv {
-    width: 280px;
     padding: 0 10px;
-    border-left: 1px solid silver;
-    border-right: 1px solid silver;
+}
+
+.subHomeInputStyle {
+    height: 30px;
+    outline: none;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.homeSubPersonDiv {
+    width: 45%;
     display: flex;
-    align-items: center;
+    height: 100%;
     justify-content: space-between;
-    cursor: pointer;
+    align-items: center;
+    padding: 0 15px;
+    border-left: 1px solid #eae6e6;
+    border-right: 1px solid #eae6e6;
 }
 
-.checkinDiv>div>h4 {
-    margin-top: -5px;
+.homeSubPersonDiv>div>h4 {
+    font-size: 15px;
+    font-weight: 700;
 }
 
-/* roomandguestDiv styles */
-
-.roomandguestDiv {
-    width: 180px;
+.homeSubSearchContainer {
+    width: 7%;
     display: flex;
+    height: 80px;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    border-right: 1px solid silver;
-    padding-right: 10px;
-}
-
-.roomandguestDiv>div {
-    margin-left: -30px;
-}
-
-.roomandguestDiv>span {
-    cursor: pointer;
-}
-
-/*SearchIconWrapper styles  */
-
-.SearchIconWrapper {
     background-color: #3264FF;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 80px;
+}
+
+.homeSubSearchIcon {
+    font-size: 30px;
 
 }
+
 
 
 /* flight components styles */
@@ -96,7 +74,7 @@
 .flightDownContainer {
     width: 100%;
     height: 70px;
-    border: 1px solid silver;
+    border: 1px solid #eae6e6;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -109,7 +87,7 @@
     height: 100%;
     width: 50%;
     justify-content: space-between;
-    border-right: 1px solid silver;
+    border-right: 1px solid #eae6e6;
     padding: 0 10px;
 }
 
@@ -125,8 +103,9 @@
 .flightIconWrapper {
     background-color: #fff;
     padding: 5px;
-    box-shadow: 1px 1px 5px 1px #d8d2d2;
+    box-shadow: 1px 1px 5px 1px #eae6e6;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .flightIcon {
@@ -149,6 +128,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 /* memberComp styles */
@@ -160,113 +140,55 @@
 
 .memberComp>p {
     margin: 0 8px;
+    font-size: 15px;
 }
 
 .memberCompIcon {
-    font-size: 18px;
-}
-
-@media(max-width:1250px) {
-    .extraDestinatinDivStyle {
-        width: 140px;
-        margin-left: -20px;
-    }
-}
-
-@media(max-width:1100px) {
-    .checkinDiv {
-        width: 220px;
-
-    }
-
-    .checkinDiv>div>h4 {
-        margin-top: -5px;
-        font-size: 15px;
-        font-weight: 500;
-    }
-
-    .roomandguestDiv {
-        width: 150px;
-        padding-left: 10px;
-    }
-
-    .roomandguestDiv>div>p:first-child {
-        margin-bottom: -5px;
-    }
+    font-size: 16px;
+    margin-top: 3px;
 }
 
 
-@media(max-width:980px) {
+
+@media(max-width:1000px) {
     .subHomeContainerStyle {
-        display: block;
-        overflow: visible;
-        min-height: 300px;
-        width: 100%;
-        padding: 10px 0;
-        border: none;
+        height: 70px;
     }
 
-    .destinationHomesubDiv {
-        width: 100%;
-        padding: 0 10px;
-        height: 60px;
-    }
-
-    .destinationHomesubDiv>input {
-
-        width: 80%;
-    }
-
-    .destinationHomesubDiv>p {
-        margin-bottom: 6px;
-    }
-
-    .roomandguestDiv {
-        width: 97.5%;
-        border: none;
-        border-bottom: 1px solid silver;
-        padding: 0 10px;
-        height: 80px;
-
-    }
-
-    .roomandguestDiv>div {
-        margin-left: 0px;
-    }
-
-    .roomandguestDiv>span {
-        padding-right: 10px;
-    }
-
-    .checkinDiv {
-        width: 100%;
-        border: none;
-        border-top: 1px solid silver;
-        border-bottom: 1px solid silver;
-        padding: 0 0px;
-        overflow: hidden;
-        height: 80px;
-    }
-
-    .checkinDiv>div {
-        padding: 0 10px;
-        padding-right: 20px;
-    }
-
-    .extraDestinatinDivStyle {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .SearchIconWrapper {
-        display: none;
+    .homeSubSearchContainer {
+        height: 70px;
     }
 }
 
 
 @media(max-width:900px) {
 
+    .subHomeInputStyle {
+        height: 25px;
+        font-size: 13px;
+    }
 
+    .homeSubPersonDiv {
+        width: 35%;
+    }
+
+    .homeSubPersonDiv>div>h4 {
+        font-size: 14px;
+    }
+
+    .homeSubPersonDiv>div>p {
+        font-size: 14px;
+    }
+
+    .homeSubSearchContainer {
+        width: 10%;
+    }
+
+    .homeSubSearchIcon {
+        font-size: 25px;
+        cursor: pointer;
+
+    }
 
     .flightIconAndInputContainer {
         width: 70%;
@@ -288,6 +210,44 @@
 
 @media(max-width:767px) {
 
+    .subHomeContainerStyle {
+        display: flex;
+        width: 100%;
+        min-height: 220px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .homeSubInputWrapper {
+        width: 95%;
+        flex-direction: column;
+        height: 50px;
+        align-items: flex-start;
+    }
+
+    .homeSubInputWrapper:first-child {
+        border-bottom: 1px solid #eae6e6;
+    }
+
+    .smallScreenBorder {
+        border-top: 1px solid #eae6e6;
+    }
+
+    .homeSubPersonDiv {
+        width: 70%;
+        border: none;
+        height: 70px;
+        padding: 5px 10px;
+
+    }
+
+    .homeSubSearchContainer {
+        height: 35px;
+        width: 100%;
+
+    }
+
 
     .flightTopBar {
         width: 70%;
@@ -299,28 +259,29 @@
 
     .flightContainer {
         min-height: 100px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
 
     .flightDownContainer {
-        min-height: 100px;
+        min-height: 160px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        padding-bottom: 10px;
+        border: none;
+
     }
 
 
     .flightInputContainer {
 
         width: 97%;
-        height: 100px;
+        height: 70px;
         justify-content: space-between;
         align-items: center;
         border-right: none;
         padding: 0 10px;
-        border-bottom: 1px solid silver;
+        border-bottom: 1px solid #eae6e6;
     }
 
     .flightIconAndInputContainer {
@@ -338,7 +299,12 @@
     }
 
     .flightSearchIconBtn {
-        display: none;
+        width: 100%;
+        height: 35px;
+    }
+
+    .homeSubSearchIcon {
+        font-size: 20px;
     }
 }
 
@@ -359,6 +325,22 @@
 
     .memberComp>p {
         font-size: 14px;
+    }
+
+    .memberComp>p {
+        margin: 0 8px;
+        font-size: 13px;
+    }
+
+    .memberCompIcon {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+
+    .homeSubPersonDiv {
+        width: 90%;
+        border: none;
+
     }
 }
 

@@ -17,25 +17,32 @@ export const SubHotelComp = () => {
 
     return (
         <div className='subHomeContainerStyle'>
-            <div
-                className='destinationHomesubDiv'
-            >
+            <div className='homeSubInputWrapper'>
                 <InputComp
-                    placeholder="Destination.."
-                    style={inputStyle}
+                    placeholder="Destination"
+                    classname="subHomeInputStyle"
                 />
             </div>
-            <Checkin />
-            <RoomAndGuest />
-            <div className='destinationHomesubDiv'>
+            <div className='homeSubPersonDiv'>
+                <div >
+                    <p>Check in</p>
+                    <h4>Fri 24 Jun</h4>
+                </div>
+                <p>1 night</p>
+                <div>
+                    <p>Check in</p>
+                    <h4>Fri 24 Jun</h4>
+                </div>
+            </div>
+            <div className='homeSubInputWrapper smallScreenBorder'>
                 <InputComp
-                    placeholder="Air/Hotel search.."
-                    style={inputStyle}
+                    placeholder="Air,Hotels etc.."
+                    classname="subHomeInputStyle"
                 />
             </div>
             <SearchIcon
-                classStyle={'SearchIconWrapper'}
-                size={40}
+                classStyle={'homeSubSearchContainer'}
+                classname="homeSubSearchIcon"
             />
 
 
@@ -44,8 +51,6 @@ export const SubHotelComp = () => {
 }
 
 export const FlightComp = () => {
-
-
 
     return (
         <div className='flightContainer'>
@@ -96,7 +101,7 @@ export const FlightComp = () => {
 
                 <SearchIcon
                     classStyle={'flightSearchIconBtn'}
-                    size={40}
+                    classname="homeSubSearchIcon"
                 />
             </div>
         </div>
@@ -113,7 +118,7 @@ export const InputComp = ({ placeholder, style, classname }) => (
 
 
 const MemberComp = (props) => {
-    const { MdFlight, size, text } = props
+    const { MdFlight, text } = props
 
     const [showCard, setShowCard] = useState(false)
     return (
@@ -140,51 +145,20 @@ const MemberComp = (props) => {
 
 
 
+// export const Destination = (props) => {
+//     const { title, placeholder, extra, style } = props
+//     return (
+//         <div
+//             className='destinationHomesubDiv'
+//         >
+//             <InputComp
+//                 placeholder={placeholder}
+//                 style={style}
+//             />
+//         </div>
+//     )
+// }
 
-export const Destination = (props) => {
-    const { title, placeholder, extra, style } = props
-    return (
-        <div
-            className='destinationHomesubDiv'
-        >
-            <InputComp
-                placeholder={placeholder}
-                style={style}
-            />
-        </div>
-    )
-}
-
-
-
-
-
-const Checkin = () => (
-    <div className='checkinDiv'>
-        <div>
-            <p>Check in</p>
-            <h4>Fri 24 Jun</h4>
-        </div>
-        <p>1 night</p>
-        <div>
-            <p>Check in</p>
-            <h4>Fri 24 Jun</h4>
-        </div>
-    </div>
-)
-
-
-const RoomAndGuest = () => (
-    <div className='roomandguestDiv'>
-        <div>
-            <p>Room and Guest</p>
-            <p>1 Room 1 Adult</p>
-        </div>
-        <span>
-            <AiOutlineDown size={20} />
-        </span>
-    </div>
-)
 
 export const SearchIcon = ({ classStyle, size, classname }) => (
     <div className={classStyle}>

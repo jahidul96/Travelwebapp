@@ -31,10 +31,8 @@ export default function Flight() {
             </div>
 
             <div
-                className='container '
-                style={{
-                    marginBottom: 60
-                }}
+                className='container flightMainPageTabWrapper'
+
             >
                 <CategoryTabBar
                     categoryTabName={flightTabName}

@@ -26,7 +26,7 @@ export default function Hotel() {
                 </div>
             </div>
 
-            <div className='container'>
+            <div className='container hotelNewsLetter'>
                 <NewsLetter />
             </div>
             <AppUi />

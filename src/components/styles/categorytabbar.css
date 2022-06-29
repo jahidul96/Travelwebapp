@@ -1,5 +1,6 @@
 .tabMainDiv {
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .selecttedTabsContainer {
@@ -53,7 +54,6 @@
 .tabIconWrapper {
     display: block;
     margin-top: 5px;
-
 }
 
 
@@ -76,6 +76,8 @@
         box-shadow: 2px 5px 3px #c4bfbf;
 
     }
+
+
 }
 
 
@@ -95,6 +97,10 @@
 
     .flghtPageItemWrapper {
         border-bottom: 1px solid blue;
+    }
+
+    .tabMainDiv {
+        margin-top: 50px;
     }
 }
 
